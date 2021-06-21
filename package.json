@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "cypress run --headed --browser chrome --no-exit --reporter mochawesome",
+    "run": "cypress run --headed --browser chrome",
     "record": "cypress run --record --key ",
+    "cy:verify": "cypress verify",
     "test": "npm run run"
   },
   "author": "",
