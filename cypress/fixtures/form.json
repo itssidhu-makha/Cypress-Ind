@@ -1,0 +1,16 @@
+   {
+    "url":"https://demoqa.com/automation-practice-form",
+    "firstName":"Automation",
+    "lastName":"Automation QA",
+    "email":"email@email.com",
+    "gender":"Male",
+    "Mobile":"9888889989",
+    "DOB":"2 January 1989",
+    "Subjects":["English","History"],
+    "Hobbies":["Sports","Reading"],
+    "Picture":"",
+    "CurrentAddress":"This is my current address",
+    "State":"NCR",
+    "City":"Delhi",
+    "filePath":"images/cypress.jpg"    
+}

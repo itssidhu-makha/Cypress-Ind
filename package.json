@@ -1,0 +1,16 @@
+{
+  "name": "com.cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "cypress run --headed --browser chrome --no-exit --reporter mochawesome",
+    "record": "cypress run --record --key ",
+    "test": "npm run run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  }
+}
