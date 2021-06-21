@@ -1,14 +1,10 @@
 pipeline {
-    agent {
-        docker {
-            image 'cypress/base:12'            
-        }
-    }
+    agent any
     stages {
         stage('Install Dependencies') { 
             steps {
                 sh 'npm ci'//npm ci: CI stands for continuous integration and npm ci is used to install all exact version dependencies or devDependencies from a package-lock
-                sh 'npm run cy:verify'//Verify that Cypress is installed correctly and is executabl
+                sh 'npm run cy:verify'//Verify that Cypress is installed correctly and is executable
             }
         }
       
