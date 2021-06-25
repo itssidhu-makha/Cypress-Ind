@@ -1,6 +1,18 @@
 {
-  "projectId": "9cqbzv",
+  "projectId": "9cqbzv",  
   "defaultCommandTimeout":6000,
   "pageLoadTimeout":120000,
-  "integrationFolder":"cypress/integration/project"
+  "integrationFolder":"cypress/integration/project/ui/tests",
+  "video":false,
+  "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": true,
+            "html": false,
+            "json": true
+        }
+    }
 }

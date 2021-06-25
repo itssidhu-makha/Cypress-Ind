@@ -12,5 +12,5 @@
     "CurrentAddress":"This is my current address",
     "State":"NCR",
     "City":"Delhi",
-    "filePath":"images/cypress.jpg"    
+    "filePath":"resources/cypress.jpg"    
 }
